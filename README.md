@@ -11,10 +11,12 @@ no really, huge thanks to:
 - Rack Smix (trainee programmer)
 
 gamedev roadmap:
-  https://cdn.discordapp.com/attachments/1123710927284482088/1123903385377185832/roadmap.drawio_2.png
+
+  ![roadmap.png](https://cdn.discordapp.com/attachments/1123710927284482088/1123903385377185832/roadmap.drawio_2.png)
   https://drive.google.com/file/d/1GXLVNFXWbw3ssazaNdOwc9SV0noSTrGc/view?usp=drive_link
 
 art roadmap:
-  https://cdn.discordapp.com/attachments/1123710927284482088/1123902608499822643/Screenshot_2023-06-29_at_10.07.33.png
+
+  ![artroadmap.png](https://cdn.discordapp.com/attachments/1123710927284482088/1123902608499822643/Screenshot_2023-06-29_at_10.07.33.png)
   
   
