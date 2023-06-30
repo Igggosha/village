@@ -56,8 +56,9 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/RockSpawning.cs" />
     <Compile Include="Assets/Scripts/RockID.cs" />
+    <Compile Include="Assets/Scripts/RockSpawning.cs" />
+    <Compile Include="Assets/Scripts/CameraMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
