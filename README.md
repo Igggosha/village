@@ -9,6 +9,7 @@ no really, huge thanks to:
 - Mockingbird DnB (composer (idk how you are doing this bro your music is amazing), SFX)
 - jia (modelling, texturing, VFX)
 - Rack Smix (trainee programmer)
+- Deauther (modelling, texturing, VFX)
 
 gamedev roadmap:
 
@@ -17,6 +18,6 @@ gamedev roadmap:
 
 art roadmap:
 
-  ![artroadmap.png](https://cdn.discordapp.com/attachments/1123710927284482088/1123902608499822643/Screenshot_2023-06-29_at_10.07.33.png)
-  
+  ![artroadmap.png](https://cdn.discordapp.com/attachments/1123536817342398505/1124249813517615207/art_roadmap.drawio_2.png)
+  https://drive.google.com/file/d/1sgzErtDEf_WeXpV8GCuyB14fKCGBx1R3/view?usp=sharing 
   
