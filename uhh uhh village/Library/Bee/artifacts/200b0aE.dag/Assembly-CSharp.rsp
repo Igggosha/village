@@ -349,8 +349,10 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraMovement.cs"
+"Assets/Scripts/CollisionCheckerResponder.cs"
 "Assets/Scripts/RockID.cs"
 "Assets/Scripts/RockSpawning.cs"
+"Assets/Scripts/TreeSpawner.cs"
 -langversion:9.0
 
 /deterministic
