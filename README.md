@@ -10,7 +10,7 @@ no really, huge thanks to:
 - jia (modelling, texturing, VFX)
 - Rack Smix (trainee programmer)
 - Deauther (modelling, texturing, VFX)
-
+- Ranta (suggestions, interconnection, management, programmer)
 gamedev roadmap:
 
   ![roadmap.png](https://cdn.discordapp.com/attachments/1123710927284482088/1123903385377185832/roadmap.drawio_2.png)
