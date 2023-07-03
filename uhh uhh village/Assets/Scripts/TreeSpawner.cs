@@ -5,6 +5,13 @@ using UnityEngine;
 
 public class TreeSpawner : MonoBehaviour
 {
+    /*
+     This script works HORRIBLY and half the times it does not. I do not
+    know why. No one will ever know why. This script is cursed by the ancient
+    Maya gods for a reason we will never know.
+    */
+
+
     [SerializeField] float h = 0.04999994f;
     [SerializeField] int treeLimit = 100;
     [SerializeField] private GameObject treePrefab;
@@ -42,7 +49,7 @@ public class TreeSpawner : MonoBehaviour
                 height,
                 Random.Range(-50f, 50f));
 
-            if (isSpawnAvailable(coords, collisionCheckerPrefab))
+            if (isSpawnAvailable(new Vector3(coords.x, height+0.5f, coords.z), collisionCheckerPrefab))
             {
 
                 GameObject newTree = Instantiate(tree, coords,
@@ -56,6 +63,7 @@ public class TreeSpawner : MonoBehaviour
             {
                 Debug.Log("Coords were not safe. Not spawning tree.");
             }
+            collisionCheckerPrefab.GetComponent<CollisionCheckerResponder>().safeToSpawn = true;
         }
         else
         {

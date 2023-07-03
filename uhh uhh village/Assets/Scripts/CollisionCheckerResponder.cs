@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CollisionCheckerResponder : MonoBehaviour
 {
+    [SerializeField] GameObject debugCollider;
     public bool safeToSpawn = true;
     // Start is called before the first frame update
     void Start()
@@ -19,12 +20,13 @@ public class CollisionCheckerResponder : MonoBehaviour
     
     private void OnTriggerEnter(UnityEngine.Collider collider)
     {
-        if (collider.gameObject.tag == "Terrain")
-        {
-            safeToSpawn = true;
-        } else
+        debugCollider = collider.gameObject;
+        if (collider.gameObject.tag == "Tree" || collider.gameObject.tag == "Rock")
         {
             safeToSpawn = false;
+        } else
+        {
+            safeToSpawn = true;
         }
         Debug.Log("Internally it is " + safeToSpawn);
     }

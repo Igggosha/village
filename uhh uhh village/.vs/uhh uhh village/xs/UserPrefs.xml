@@ -1,23 +1,21 @@
 ﻿<Properties StartupConfiguration="{AA8E19DB-35FC-DC5E-25CD-7E32D9C57D84}|">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3b0fd935-7c4e-4682-91be-3c967ee3c66d" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TreeSpawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VillagerBehaviour.cs">
     <Files>
       <File FileName="Assets/Scripts/RockSpawning.cs" Line="87" Column="1" />
-      <File FileName="Assets/Scripts/RockID.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CameraMovement.cs" Line="66" Column="33" />
-      <File FileName="Assets/Scripts/TreeBehaviour.cs" Line="73" Column="13" />
-      <File FileName="Assets/Scripts/CollisionCheckerResponder.cs" Line="12" Column="6" />
+      <File FileName="Assets/Scripts/RockID.cs" />
+      <File FileName="Assets/Scripts/CameraMovement.cs" />
+      <File FileName="Assets/Scripts/CollisionCheckerResponder.cs" Line="28" Column="10" />
+      <File FileName="Assets/Scripts/NavMeshUpdate.cs" Line="32" Column="40" />
+      <File FileName="Assets/Scripts/VillagerBehaviour.cs" Line="24" Column="46" />
+      <File FileName="Assets/Scripts/TreeSpawner.cs" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="uhh uhh village" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="TreeSpawner.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
