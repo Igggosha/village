@@ -61,6 +61,7 @@
     <Compile Include="Assets/Scripts/CameraMovement.cs" />
     <Compile Include="Assets/Scripts/NavMeshUpdate.cs" />
     <Compile Include="Assets/Scripts/RockID.cs" />
+    <Compile Include="Assets/Scripts/TreeLifeCycle.cs" />
     <Compile Include="Assets/Scripts/TreeSpawner.cs" />
     <Compile Include="Assets/Scripts/CollisionCheckerResponder.cs" />
     <Compile Include="Assets/Scripts/VillagerBehaviour.cs" />

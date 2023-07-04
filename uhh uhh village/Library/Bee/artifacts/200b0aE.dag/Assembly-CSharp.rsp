@@ -359,6 +359,7 @@
 "Assets/Scripts/NavMeshUpdate.cs"
 "Assets/Scripts/RockID.cs"
 "Assets/Scripts/RockSpawning.cs"
+"Assets/Scripts/TreeLifeCycle.cs"
 "Assets/Scripts/TreeSpawner.cs"
 "Assets/Scripts/VillagerBehaviour.cs"
 -langversion:9.0
