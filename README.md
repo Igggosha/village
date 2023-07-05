@@ -11,7 +11,10 @@ no really, huge thanks to:
 - Rack Smix (trainee programmer)
 - Deauther (modelling, texturing, VFX)
 - Ranta (suggestions, interconnection, management, programmer)
+- Daliys (programmer)
+- abhinav112 (programmer)
 gamedev roadmap:
+
 
   ![roadmap.png](https://cdn.discordapp.com/attachments/1123710927284482088/1123903385377185832/roadmap.drawio_2.png)
   https://drive.google.com/file/d/1GXLVNFXWbw3ssazaNdOwc9SV0noSTrGc/view?usp=drive_link
