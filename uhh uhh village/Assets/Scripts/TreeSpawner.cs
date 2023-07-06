@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class TreeSpawner : MonoBehaviour
@@ -32,9 +30,9 @@ public class TreeSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
 
-        
+
+
     }
 
     private IEnumerator spawnTree(float interval, GameObject tree, float limit, float height)
@@ -49,7 +47,7 @@ public class TreeSpawner : MonoBehaviour
                 height,
                 Random.Range(-50f, 50f));
 
-            if (isSpawnAvailable(new Vector3(coords.x, height+0.5f, coords.z), collisionCheckerPrefab))
+            if (isSpawnAvailable(new Vector3(coords.x, height + 0.5f, coords.z), collisionCheckerPrefab))
             {
 
                 GameObject newTree = Instantiate(tree, coords,
@@ -59,10 +57,12 @@ public class TreeSpawner : MonoBehaviour
 
 
                 Debug.Log("spawning a tree");
-            } else
+            }
+            else
             {
                 Debug.Log("Coords were not safe. Not spawning tree.");
             }
+
             collisionCheckerPrefab.GetComponent<CollisionCheckerResponder>().safeToSpawn = true;
         }
         else
@@ -81,25 +81,27 @@ public class TreeSpawner : MonoBehaviour
         if (collisionChecker.GetComponent<CollisionCheckerResponder>().safeToSpawn)
         {
             Debug.Log("Safe to spawn tree! " + collisionChecker.GetComponent<CollisionCheckerResponder>().safeToSpawn);
-            
+
             toreturn = true;
 
         }
         else
         {
-            Debug.Log("Unsafe to spawn tree! " + collisionChecker.GetComponent<CollisionCheckerResponder>().safeToSpawn);
-            
+            Debug.Log("Unsafe to spawn tree! " +
+                      collisionChecker.GetComponent<CollisionCheckerResponder>().safeToSpawn);
+
             toreturn = false;
         }
+
         return toreturn;
     }
 
-    private IEnumerator awaitCollisionCheck (GameObject checker)
+    private IEnumerator awaitCollisionCheck(GameObject checker)
     {
         yield return new WaitForSeconds(0.1f);
 
-        
+
     }
 
-    
+
 }
