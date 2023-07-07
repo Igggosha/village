@@ -67,6 +67,7 @@
      <Folder Include="Assets/Scenes/SampleScene" />
      <Folder Include="Assets/Materials" />
      <Folder Include="Assets/Scripts" />
+     <Folder Include="Assets/Models" />
      <Folder Include="Assets/Scripts/MapGeneration" />
      <Folder Include="Assets/Scenes" />
      <Folder Include="Assets/Sprites" />
