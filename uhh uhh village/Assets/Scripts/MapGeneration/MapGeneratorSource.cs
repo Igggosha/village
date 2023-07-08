@@ -2,7 +2,7 @@ using System;
 
 namespace MapGeneration
 {
-    //TODO: This class is going to be refactored in the future
+    //TODO: This class is going to be refactored in the future 
     public class MapGeneratorSource
     {
         private bool[,] map;

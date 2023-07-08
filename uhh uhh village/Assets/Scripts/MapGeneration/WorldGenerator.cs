@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace MapGeneration
 {
-    //TODO: its going to be refactored in the future
+    //TODO: its going to be refactored in the future 
     public class WorldGenerator : MonoBehaviour
     {
 

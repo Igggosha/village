@@ -45,7 +45,7 @@ public class Point
         x = Math.Abs(x);
         y = Math.Abs(y);
     }
-    
+    //
     
     public Point Right() => new Point(x + 1, y);
     public Point Left() => new Point(x - 1, y);

@@ -1,7 +1,7 @@
 using UnityEngine;
 
 namespace MapGeneration
-{
+{ 
     public static class PerlinNoiseGenerator 
     {
         public static float[,] GenerateNoise(Point mapSize, int seed, float scale, int octaves, float persistance,

@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class TreeLifeCycle : MonoBehaviour
 {
+    /*<summary>
+     * Handles the growth, blooming and death of trees
+     * 
+     * To be assigned to TREES.
+     </summary>*/
+
     //[SerializeField] private int MaxLifeTime;
     [SerializeField] private float MaxSize;
     [SerializeField] private bool isAppleTree = false;
@@ -11,7 +17,10 @@ public class TreeLifeCycle : MonoBehaviour
 
     [SerializeField] private Material transparent;
     [SerializeField] private Material applered;
-    [SerializeField] private float timeModifier = 10f;
+
+    [SerializeField] private float timeModifier = 10f; // wide use variable to modify the speed of the growth, death and flourishing. TODO: implement widely.
+
+    [SerializeField] private bool isPreparingToFlourish = false; // small use variable to prevent appleCountdown from being started multiple times.
     // Start is called before the first frame update
     void Start()
     {
@@ -37,8 +46,9 @@ public class TreeLifeCycle : MonoBehaviour
                 gameObject.transform.localScale.y + Time.deltaTime / timeModifier,
                 gameObject.transform.localScale.z + Time.deltaTime / timeModifier);
 
-            if (isAppleTree && !isFlourishing && gameObject.transform.localScale.x >= 1)
+            if (isAppleTree && !isFlourishing && gameObject.transform.localScale.x >= 1 && ! isPreparingToFlourish)
             {
+                isPreparingToFlourish = true;
                 StartCoroutine(appleCountdown(Random.Range(3f, 10f)));
             }
         } else
@@ -84,12 +94,16 @@ public class TreeLifeCycle : MonoBehaviour
                 break;
             }
         }
-        
+
+        isPreparingToFlourish = false;
         isFlourishing = true;
     }
 
-    private void deflourish()
+    public void deflourish()
     {
+        /* <summary>
+         * Helper function which is to be accessed from the outside to remove 
+         * apples on the tree and begin a new growth cycle for the tree. </summary>*/
         for (var i = gameObject.transform.childCount - 1; i >= 0; i--)
         {
             if (gameObject.transform.GetChild(i).gameObject.name == "apples")

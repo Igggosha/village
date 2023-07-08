@@ -4,7 +4,7 @@ namespace MapGeneration
 {
     /// <summary>
     ///  Class to display the map in the scene
-    ///  Draws the map as a texture or as a mesh
+    ///  Draws the map as a texture or as a mesh 
     /// 
     /// TODO: This class wiil be refactored in the future
     /// </summary>

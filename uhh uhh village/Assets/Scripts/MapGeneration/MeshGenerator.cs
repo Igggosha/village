@@ -3,7 +3,7 @@ using UnityEngine;
 namespace MapGeneration
 {
     /// <summary>
-    ///   Generates a mesh from a height map.
+    ///   Generates a mesh from a height map. 
     /// </summary>
     public static class MeshGenerator
     {

@@ -4,7 +4,7 @@ namespace MapGeneration
 {
     /// <summary>
     ///  Map generator class to generate the map chunk and display it in the scene
-    /// </summary>
+    /// </summary> 
     public class MapGenerator : MonoBehaviour
     {
 

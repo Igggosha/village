@@ -4,7 +4,7 @@ namespace MapGeneration
 {
     /// <summary>
     ///  Map generator class to generate textures from the noise map
-    /// </summary>
+    /// </summary> 
     public static class TextureGenerator
     {
         public static Texture2D TextureFromColorMap(Color[] colorMap, Point mapSize)

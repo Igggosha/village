@@ -7,10 +7,16 @@ public class TreeSpawner : MonoBehaviour
      This script works HORRIBLY and half the times it does not. I do not
     know why. No one will ever know why. This script is cursed by the ancient
     Maya gods for a reason we will never know.
+
+    TODO:
+    Rewrite to spawn trees on terrain in forest areas.
+
+    This script is to be assigned to an empty which would act as a spawn controller.
+
     */
 
 
-    [SerializeField] float h = 0.04999994f;
+    [SerializeField] float h = 0f;
     [SerializeField] int treeLimit = 100;
     [SerializeField] private GameObject treePrefab;
     [SerializeField] private GameObject collisionCheckerPrefab;

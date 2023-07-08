@@ -7,12 +7,14 @@ using UnityEngine.AI ;
 public class VillagerBehaviour : MonoBehaviour
 {
     /*
-     ok this is going to be BIG
+     <summary>
+     Villager AI.
      
      
-     
-     
-     
+     To be assigned to villagers.
+
+     TODO: a lot
+     </summary>
      */
 
     [SerializeField] private Transform target;

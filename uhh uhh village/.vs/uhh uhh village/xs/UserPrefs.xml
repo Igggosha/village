@@ -3,30 +3,40 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7eab33cf-ac23-4bc0-b197-801295c3c5b7" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TreeLifeCycle.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="34d13d3a-48b6-4bd5-a0c3-f604e316093a" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MapGeneration/TextureGenerator.cs">
     <Files>
-      <File FileName="Assets/Scripts/RockSpawning.cs" />
-      <File FileName="Assets/Scripts/RockID.cs" />
-      <File FileName="Assets/Scripts/CameraMovement.cs" />
-      <File FileName="Assets/Scripts/CollisionCheckerResponder.cs" />
-      <File FileName="Assets/Scripts/NavMeshUpdate.cs" />
-      <File FileName="Assets/Scripts/VillagerBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TreeSpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TreeLifeCycle.cs" Line="24" Column="71" />
+      <File FileName="Assets/Scripts/VillagerBehaviour.cs" Line="16" Column="17" />
+      <File FileName="Assets/Scripts/TreeSpawner.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/TreeLifeCycle.cs" Line="97" Column="1" />
+      <File FileName="Assets/Scripts/Point.cs" Line="48" Column="7" />
+      <File FileName="Assets/Scripts/MapGeneration/MapDisplay.cs" Line="7" Column="50" />
+      <File FileName="Assets/Scripts/MapGeneration/MapGenerator.cs" Line="7" Column="20" />
+      <File FileName="Assets/Scripts/MapGeneration/MapGeneratorSource.cs" Line="5" Column="64" />
+      <File FileName="Assets/Scripts/MapGeneration/MeshGenerator.cs" Line="6" Column="47" />
+      <File FileName="Assets/Scripts/MapGeneration/PerlinNoiseGenerator.cs" Line="4" Column="3" />
+      <File FileName="Assets/Scripts/MapGeneration/WorldGenerator.cs" Line="6" Column="54" />
+      <File FileName="Assets/Scripts/MapGeneration/TextureGenerator.cs" Line="7" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="uhh uhh village" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="MapGeneration" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" selected="True" />
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
