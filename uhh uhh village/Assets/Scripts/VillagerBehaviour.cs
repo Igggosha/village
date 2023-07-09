@@ -52,13 +52,18 @@ public class VillagerBehaviour : MonoBehaviour
     private string[] femaleNames = {
         "Maria",
         "Johanna",
-        "Athena"
+        "Athena",
+        "Hannah",
+        "Skyler"
     };
 
     private string[] maleNames = {
         "Martin",
         "Walter",
-        "John"
+        "John",
+        "Andrew",
+        "White",
+        "Saul"
     };
 
     [SerializeField] private Transform target;
@@ -79,7 +84,13 @@ public class VillagerBehaviour : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        // TODO make a detection of gender based on gameObject name or model
+
+        // TODO:
+        // make a detection of gender based on gameObject name or model
+        // !!! now that i think about it, it is probably going to be name based detection
+        // (for villagers created from the editor),
+        // since gender is going to be assigned during villager procreation
+        // to the fresh insantiated villager object.
 
         if (gender == Gender.female)
         {
@@ -132,5 +143,33 @@ public class VillagerBehaviour : MonoBehaviour
                 dialogGUI.transform.GetChild(i).gameObject.GetComponent<Text>().text = villagerName;
             }
         }
+    }
+
+    /// <summary>
+    /// Proprietary function to find the closest object of a given tag. Used to
+    /// find, for example, the closest tree or the closest rock source or the closest
+    /// villager of the opposite gender, or the closest potential building plot, etc.
+    /// !! resource intensive !!
+    /// </summary>
+    /// <param name="tag">Tag to look up for.</param>
+    /// <returns>The closest gameobject with tag</returns>
+    private GameObject findClosestGoal(string tag)
+    {
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag(tag);
+        GameObject closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = transform.position;
+        foreach (GameObject go in gos)
+        {
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if (curDistance < distance)
+            {
+                closest = go;
+                distance = curDistance;
+            }
+        }
+        return closest;
     }
 }
