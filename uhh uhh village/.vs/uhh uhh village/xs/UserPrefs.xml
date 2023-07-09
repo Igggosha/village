@@ -1,24 +1,7 @@
 ﻿<Properties StartupConfiguration="{AA8E19DB-35FC-DC5E-25CD-7E32D9C57D84}|">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="34d13d3a-48b6-4bd5-a0c3-f604e316093a" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MapGeneration/TextureGenerator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VillagerBehaviour.cs">
     <Files>
-      <File FileName="Assets/Scripts/VillagerBehaviour.cs" Line="16" Column="17" />
-      <File FileName="Assets/Scripts/TreeSpawner.cs" Line="15" Column="1" />
-      <File FileName="Assets/Scripts/TreeLifeCycle.cs" Line="97" Column="1" />
-      <File FileName="Assets/Scripts/Point.cs" Line="48" Column="7" />
-      <File FileName="Assets/Scripts/MapGeneration/MapDisplay.cs" Line="7" Column="50" />
-      <File FileName="Assets/Scripts/MapGeneration/MapGenerator.cs" Line="7" Column="20" />
-      <File FileName="Assets/Scripts/MapGeneration/MapGeneratorSource.cs" Line="5" Column="64" />
-      <File FileName="Assets/Scripts/MapGeneration/MeshGenerator.cs" Line="6" Column="47" />
-      <File FileName="Assets/Scripts/MapGeneration/PerlinNoiseGenerator.cs" Line="4" Column="3" />
-      <File FileName="Assets/Scripts/MapGeneration/WorldGenerator.cs" Line="6" Column="54" />
-      <File FileName="Assets/Scripts/MapGeneration/TextureGenerator.cs" Line="7" Column="20" />
+      <File FileName="Assets/Scripts/VillagerBehaviour.cs" Line="36" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,16 +10,19 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="MapGeneration" expanded="True" />
+                <Node name="VillagerBehaviour.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de8f09d9-68e2-4a5f-9cc9-45ae9466155a" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
