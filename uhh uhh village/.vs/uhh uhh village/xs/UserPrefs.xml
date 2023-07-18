@@ -1,7 +1,15 @@
 ﻿<Properties StartupConfiguration="{AA8E19DB-35FC-DC5E-25CD-7E32D9C57D84}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VillagerBehaviour.cs">
     <Files>
-      <File FileName="Assets/Scripts/VillagerBehaviour.cs" Line="36" Column="6" />
+      <File FileName="Assets/Scripts/MapGeneration/PerlinNoiseGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MapGeneration/TextureGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MapGeneration/WorldGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MapGeneration/MeshGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MapGeneration/MapGeneratorSource.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MapGeneration/MapGenerator.cs" Line="51" Column="10" />
+      <File FileName="Assets/UI/PlayerGUIEditor.cs" Line="10" Column="2" />
+      <File FileName="Assets/Scripts/VillagerBehaviour.cs" Line="130" Column="44" />
+      <File FileName="Assets/Scripts/ButtonCloseDialog.cs" Line="20" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,8 +18,8 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="MapGeneration" expanded="True" />
-                <Node name="VillagerBehaviour.cs" selected="True" />
               </Node>
+              <Node name="UI" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -21,8 +29,8 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de8f09d9-68e2-4a5f-9cc9-45ae9466155a" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b0d7f3a4-ae0d-4610-9aca-b3abc71a1737" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>
