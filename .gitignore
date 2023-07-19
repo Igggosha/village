@@ -10,6 +10,12 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+uhh uhh village/Library/ArtifactDB
+uhh uhh village/Library/SceneVisibilityState.asset
+uhh uhh village/Library/Search/transactions.db
+uhh uhh village/Library/SourceAssetDB
+uhh uhh village/Library/StateCache/SceneView/55/55840c9881d28e71b9f5d8b17a2ccfed.json
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
