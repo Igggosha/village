@@ -7,33 +7,33 @@ namespace MapGeneration
     /// </summary> 
     public static class TextureGenerator
     {
-        public static Texture2D TextureFromColorMap(Color[] colorMap, Point mapSize)
+        public static Texture2D TextureFromColorMap(Color[] colorMap, int mapSize)
         {
-            Texture2D texture = new Texture2D(mapSize.x, mapSize.y);
-            texture.filterMode = FilterMode.Point; 
-            texture.wrapMode = TextureWrapMode.Clamp;   
+            Texture2D texture = new Texture2D(mapSize, mapSize);
+            texture.filterMode = FilterMode.Point;
+            texture.wrapMode = TextureWrapMode.Clamp;
             texture.SetPixels(colorMap);
             texture.Apply();
 
             return texture;
         }
 
-        public static Texture2D TextureFromHeightMap(float[,] heightMap)
+        public static Texture2D TextureFromHeightMap(HeightMap heightMap)
         {
-            int width = heightMap.GetLength(0);
-            int height = heightMap.GetLength(1);
+            int mapSize = heightMap.values.GetLength(0);
 
-            Color[] colorMap = new Color[width * height];
+            Color[] colorMap = new Color[mapSize * mapSize];
 
-            for (int y = 0; y < height; y++)
+            for (int y = 0; y < mapSize; y++)
             {
-                for (int x = 0; x < width; x++)
+                for (int x = 0; x < mapSize; x++)
                 {
-                    colorMap[y * width + x] = Color.Lerp(Color.black, Color.white, heightMap[x, y]);
+                    colorMap[y * mapSize + x] = Color.Lerp(Color.black, Color.white,
+                        Mathf.InverseLerp(heightMap.minValue, heightMap.maxValue, heightMap.values[x, y]));
                 }
             }
 
-            return TextureFromColorMap(colorMap, new Point(width, height));
+            return TextureFromColorMap(colorMap, mapSize);
         }
     }
-}  
+}
