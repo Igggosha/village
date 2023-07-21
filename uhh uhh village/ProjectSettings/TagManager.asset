@@ -8,6 +8,7 @@ TagManager:
   - Tree
   - Hut
   - Terrain
+  - Villager
   layers:
   - Default
   - TransparentFX

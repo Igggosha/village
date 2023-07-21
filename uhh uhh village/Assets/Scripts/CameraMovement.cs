@@ -1,12 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+using UI;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField]
-    private float MovementSpeed = 5;
+    [SerializeField] private float MovementSpeed = 5;
     private Vector3 ObjectPosition;
 
 
@@ -15,12 +12,19 @@ public class CameraMovement : MonoBehaviour
         get { return sensitivity; }
         set { sensitivity = value; }
     }
-    [Range(0.1f, 9f)][SerializeField] float sensitivity = 2f;
+
+    [Range(0.1f, 9f)] [SerializeField] float sensitivity = 2f;
+
     [Tooltip("Limits vertical camera rotation. Prevents the flipping that happens when rotation goes above 90.")]
-    [Range(0f, 90f)][SerializeField] float yRotationLimit = 88f;
+    [Range(0f, 90f)]
+    [SerializeField]
+    float yRotationLimit = 88f;
 
     Vector2 rotation = Vector2.zero;
-    const string xAxis = "Mouse X"; //Strings in direct code generate garbage, storing and re-using them creates no garbage
+
+    const string
+        xAxis = "Mouse X"; //Strings in direct code generate garbage, storing and re-using them creates no garbage
+
     const string yAxis = "Mouse Y";
 
 
@@ -29,7 +33,7 @@ public class CameraMovement : MonoBehaviour
     void Start()
     {
         ObjectPosition = this.transform.position;
-        
+
     }
 
     // Update is called once per frame
@@ -37,27 +41,32 @@ public class CameraMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position = transform.position + Camera.main.transform.forward * MovementSpeed * Time.deltaTime;
+            transform.position += Camera.main.transform.forward * (MovementSpeed * Time.deltaTime);
         }
+
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position = transform.position - Camera.main.transform.right * MovementSpeed * Time.deltaTime;
+            transform.position -= Camera.main.transform.right * (MovementSpeed * Time.deltaTime);
         }
+
         if (Input.GetKey(KeyCode.S))
         {
-            transform.position = transform.position - Camera.main.transform.forward * MovementSpeed * Time.deltaTime;
+            transform.position -= Camera.main.transform.forward * (MovementSpeed * Time.deltaTime);
         }
+
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position = transform.position + Camera.main.transform.right * MovementSpeed * Time.deltaTime;
+            transform.position += Camera.main.transform.right * (MovementSpeed * Time.deltaTime);
         }
+
         if (Input.GetKey(KeyCode.E))
         {
-            transform.position = transform.position + Camera.main.transform.up * MovementSpeed * Time.deltaTime;
+            transform.position += Camera.main.transform.up * (MovementSpeed * Time.deltaTime);
         }
+
         if (Input.GetKey(KeyCode.Q))
         {
-            transform.position = transform.position - Camera.main.transform.up * MovementSpeed * Time.deltaTime;
+            transform.position -= Camera.main.transform.up * (MovementSpeed * Time.deltaTime);
         }
 
 
@@ -72,6 +81,23 @@ public class CameraMovement : MonoBehaviour
             var yQuat = Quaternion.AngleAxis(rotation.y, Vector3.left);
 
             transform.localRotation = xQuat * yQuat;
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (hit.transform.CompareTag("Villager"))
+                {
+                    UIController.Instance.ShowVillagerInformationPanel(hit.transform.GetComponent<VillagerBehaviour>());
+                }
+                else
+                {
+                    UIController.Instance.OnMissTap();
+                }
+            }
         }
     }
 }

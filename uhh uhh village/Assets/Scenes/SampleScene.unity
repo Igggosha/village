@@ -225,51 +225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32dd051af6b241b8814830094035e6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drawMode: 2
-  numberOfChunks: 100
-  noiseScale: 80
-  levelOfDetail: 4
-  octaves: 3
-  persistance: 0.1
-  lacunarity: 1
-  offset: {x: 0, y: 0}
-  seed: 342243
-  meshHeightMultiplier: 20
-  meshHeightCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  autoUpdate: 0
-  regions:
-  - name: water
-    height: 0.3
-    color: {r: 0.17254901, g: 0.32524282, b: 0.6039216, a: 0}
-  - name: grass
-    height: 0.8
-    color: {r: 0.17372729, g: 0.6037736, b: 0.25319162, a: 0}
-  - name: rock
-    height: 3
-    color: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 0}
 --- !u!4 &157538633
 Transform:
   m_ObjectHideFlags: 0
@@ -1143,7 +1098,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4524bdc3b46848a1a9b5dd339a5569c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogGUI: {fileID: 1769222810}
 --- !u!43 &1142214167
 Mesh:
   m_ObjectHideFlags: 0
@@ -1909,7 +1863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4524bdc3b46848a1a9b5dd339a5569c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogGUI: {fileID: 1769222810}
 --- !u!4 &1427203430
 Transform:
   m_ObjectHideFlags: 0
@@ -2231,8 +2184,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92bff602121044588b20be8fece7b0cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawMode: 0
+  meshSettings: {fileID: 0}
+  heightMapSetting: {fileID: 0}
+  textureData: {fileID: 0}
+  terrainMaterial: {fileID: 0}
+  editorPrevioLevelOfDetail: 0
+  autoUpdate: 0
   meshFilter: {fileID: 1394065507}
-  meshRenderer: {fileID: 1394065506}
+  textureRenderer: {fileID: 0}
 --- !u!1 &1715579567
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,6 +2248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a39349e3921748a7b43198c06c24662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  villagerNeedsSettings: {fileID: 11400000, guid: b454bcf55e85f445b99b01d9ea2948ac, type: 2}
   gender: 0
   villagerName: 
   target: {fileID: 2014879110}
