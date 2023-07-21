@@ -75,110 +75,23 @@
      <Compile Include="Assets/Scripts/UI/UIController.cs" />
      <Compile Include="Assets/Data/UpdatableData.cs" />
      <Compile Include="Assets/Scripts/RockSpawning.cs" />
-     <Compile Include="Assets/Game Buffs/Free Realistic Textures/Scripts/GameBuffsInitializer.cs" />
      <Compile Include="Assets/Data/TextureData.cs" />
      <Folder Include="Assets" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Dry_Ground_10" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Beach_Rocks_9" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
-     <Folder Include="Assets/TextMesh Pro/Sprites" />
-     <Folder Include="Assets/Textures" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures" />
-     <Folder Include="Assets/Game Buffs" />
-     <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Rocky_Sand_1" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Textures/512 Resolution" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Rocky_Grass_17" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Rocky_Ground_15" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
-     <Folder Include="Assets/Materials/Generator" />
      <Folder Include="Assets/Scripts/UI" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Medieval_Stone_Wall_16" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Cracked_Soil_16" />
-     <Folder Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Ice_15" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/Scripts/ScriptableObjects" />
-     <Folder Include="Assets/TextMesh Pro/Resources" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Flaked_Paint_Wall_7" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Bark_1" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Documentation" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Asphalt_26" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Snowy_Rock_21" />
      <None Include="Assets/Terrain.shader" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Mixed_Snow_1" />
      <Folder Include="Assets/Presets" />
-     <Folder Include="Assets/DevTex/Examples/demoscene" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Forest_Ground_12" />
-     <Folder Include="Assets/TextMesh Pro" />
-     <Folder Include="Assets/DevTex/Textures" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures" />
      <Folder Include="Assets/Scenes/SampleScene" />
-     <Folder Include="Assets/DevTex/Examples" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain Layers" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Textures/2K Resolution" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains" />
      <Folder Include="Assets/Materials" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Concrete_3" />
-     <Folder Include="Assets/DevTex" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Gravel_11" />
      <Folder Include="Assets/Scripts" />
-     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
-     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Demo" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Demo" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Rough_Rock_1" />
      <Folder Include="Assets/Scripts/Villanger" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
-     <Folder Include="Assets/TextMesh Pro/Shaders" />
      <Folder Include="Assets/Scripts/Test" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Demolished_Tiles_2" />
-     <Folder Include="Assets/TextMesh Pro/Resources/Style Sheets" />
-     <Folder Include="Assets/TextMesh Pro/Fonts" />
-     <Folder Include="Assets/ScriptableObjects" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Shingle_Roof_12" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Demo/Demo" />
-     <None Include="Assets/Game Buffs/Free Realistic Textures/README.txt" />
-     <Folder Include="Assets/3D Haven" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Textures/1K Resolution" />
-     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Scripts" />
      <Folder Include="Assets/Models" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Beach_Sand_1" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Dirty_Brick_Wall_6" />
      <Folder Include="Assets/Scripts/MapGeneration" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Polished_Marble_34" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Textures/4K Resolution" />
-     <Folder Include="Assets/Resources" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Wood_Planks_40" />
      <Folder Include="Assets/TerrainAssets" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Rusty_Metal_11" />
-     <None Include="Assets/DevTex/readme.txt" />
-     <None Include="Assets/3D Haven/Free Fantasy Terrain Textures/Documentation/Version Log.txt" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
      <Folder Include="Assets/Data" />
      <Folder Include="Assets/Scenes" />
-     <Folder Include="Assets/DevTex/Materials" />
-     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
-     <Folder Include="Assets/TextMesh Pro/Documentation" />
      <Folder Include="Assets/Sprites" />
-     <Folder Include="Assets/3D Haven/Free Fantasy Terrain Textures/Textures" />
-     <Folder Include="Assets/Prefabs" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
-     <Folder Include="Assets/Game Buffs/Free Realistic Textures/Textures/Snowy_Concrete_Pavement_3" />
-     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
-     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -429,10 +342,10 @@
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -801,85 +714,85 @@
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AI.Navigation">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AI.Navigation.Updater">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AI.Navigation.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>/Users/daliys/Personal/UnityProjects/Village/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>/Users/daliys/Personal/UnityProjects/Village 2/uhh uhh village/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

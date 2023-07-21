@@ -358,7 +358,6 @@
 "Assets/Data/MeshSettings.cs"
 "Assets/Data/TextureData.cs"
 "Assets/Data/UpdatableData.cs"
-"Assets/Game Buffs/Free Realistic Textures/Scripts/GameBuffsInitializer.cs"
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/CollisionCheckerResponder.cs"
 "Assets/Scripts/MapGeneration/FalloffGenerator.cs"
