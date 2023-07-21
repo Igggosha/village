@@ -81,16 +81,22 @@
      <Folder Include="Assets/Scripts/ScriptableObjects" />
      <None Include="Assets/Terrain.shader" />
      <Folder Include="Assets/Presets" />
+     <Folder Include="Assets/DevTex/Examples/demoscene" />
+     <Folder Include="Assets/DevTex/Textures" />
      <Folder Include="Assets/Scenes/SampleScene" />
+     <Folder Include="Assets/DevTex/Examples" />
      <Folder Include="Assets/Materials" />
+     <Folder Include="Assets/DevTex" />
      <Folder Include="Assets/Scripts" />
      <Folder Include="Assets/Scripts/Villanger" />
      <Folder Include="Assets/Scripts/Test" />
      <Folder Include="Assets/Models" />
      <Folder Include="Assets/Scripts/MapGeneration" />
      <Folder Include="Assets/TerrainAssets" />
+     <None Include="Assets/DevTex/readme.txt" />
      <Folder Include="Assets/Data" />
      <Folder Include="Assets/Scenes" />
+     <Folder Include="Assets/DevTex/Materials" />
      <Folder Include="Assets/Sprites" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
