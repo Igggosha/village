@@ -73,7 +73,7 @@ public class VillagerBehaviour : MonoBehaviour
         name = " Prove me wrong!";
         age = Random.Range(18, 50);
 
-        if (villageID == -5)
+        if (true)
         {
             villageID = VillageIDController.GetComponent<VillageIDTracker>().CreateNewVillage();
             villageFlag = Instantiate(FlagPrefab, gameObject.transform.position, Quaternion.identity);
