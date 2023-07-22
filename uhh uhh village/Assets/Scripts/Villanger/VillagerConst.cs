@@ -8,7 +8,7 @@ public static class VillagerConst
     
     public static string[] VillagerMaleNames =
     {
-        "Martin", "Walter", "John", "Andrew", "White", "Saul"
+        "Martin", "Walter", "John", "Andrew", "White", "Saul", "Tyler", "Lmaoson"
     };
     
     public static string[] SplashesList = {

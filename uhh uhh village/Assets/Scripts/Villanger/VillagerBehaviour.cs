@@ -39,6 +39,8 @@ public class VillagerBehaviour : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private NavMeshAgent agent;
 
+    [SerializeField] private GameObject VillageIDController;
+
     public Text text;
 
     [SerializeField][Range(0f,100f)] public float hunger = 100;
@@ -46,9 +48,17 @@ public class VillagerBehaviour : MonoBehaviour
     [SerializeField][Range(0,4)] public int priority = 0;
 
 
+    [SerializeField] private GameObject FlagPrefab;
+    public GameObject villageFlag;
+
     private string[] priorityValues = { "gather food for the village", "get shelter", "get enough food for myself", "find a mate and mate", "explore the world and science" };
 
     public GameObject dialogGUI;
+
+    /// <summary>
+    /// The ID of the village which this villager belongs to.
+    /// </summary>
+    public int villageID = -5;
 
     private void Awake()
     {
@@ -63,6 +73,13 @@ public class VillagerBehaviour : MonoBehaviour
         name = " Prove me wrong!";
         age = Random.Range(18, 50);
 
+        if (villageID == -5)
+        {
+            villageID = VillageIDController.GetComponent<VillageIDTracker>().CreateNewVillage();
+            villageFlag = Instantiate(FlagPrefab, gameObject.transform.position, Quaternion.identity);
+            villageFlag.GetComponent<FlagStockpileResponder>().VillageID = villageID;
+
+        }
         // TODO:
         // make a detection of gender based on gameObject name or model
         // !!! now that i think about it, it is probably going to be name based detection

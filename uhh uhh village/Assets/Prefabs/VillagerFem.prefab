@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5047229132803636080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.0035415
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.7206993
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_Name
+      value: VillagerFem
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      propertyPath: m_TagString
+      value: Villager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2540631249435571729}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2901728127457138138}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6599426647685415730}
+  m_SourcePrefab: {fileID: 100100000, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+--- !u!1 &5389179236069033505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a0c5a2f24eae04c27ae6ce899f17a138, type: 3}
+  m_PrefabInstance: {fileID: 5047229132803636080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2540631249435571729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5389179236069033505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a39349e3921748a7b43198c06c24662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villagerNeedsSettings: {fileID: 11400000, guid: b454bcf55e85f445b99b01d9ea2948ac, type: 2}
+  gender: 0
+  target: {fileID: 0}
+  agent: {fileID: 2901728127457138138}
+  VillageIDController: {fileID: 0}
+  text: {fileID: 0}
+  hunger: 100
+  priority: 0
+  FlagPrefab: {fileID: 3513125071733227127, guid: 29b07fb1faba14fa68a96294454c6de0, type: 3}
+  villageFlag: {fileID: 0}
+  dialogGUI: {fileID: 0}
+  villageID: 0
+--- !u!195 &2901728127457138138
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5389179236069033505}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!136 &6599426647685415730
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5389179236069033505}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2.7159305
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.3628528, z: 0}

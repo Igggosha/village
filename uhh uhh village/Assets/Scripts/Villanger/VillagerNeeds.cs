@@ -48,7 +48,7 @@ namespace Villanger
             {
                 yield return new WaitForSeconds(0.3f);
                 
-                foodValue -= villagerNeedsSettings.foodDecreaseRate;
+                this.foodValue -= villagerNeedsSettings.foodDecreaseRate;
                 energyValue -= villagerNeedsSettings.energyDecreaseRate;
                 moodValue -= villagerNeedsSettings.moodDecreaseRate;
                 socialValue -= villagerNeedsSettings.socialDecreaseRate;
